@@ -42,7 +42,9 @@
 .links a {
   color: black;
   font-size: 25px;
-  border-bottom: 1px solid #dfdfdf
+  border-bottom: 1px solid #dfdfdf;
+  font-family: 'sinkin_sans200_x_light', sans-serif;
+  font-weight: bold;
 }
 
 header {
@@ -53,3 +55,12 @@ hr {
   clear: both;
 }
 
+h1 {
+   font-family: 'sinkin_sans200_x_light', sans-serif;
+    font-weight: bold;
+    font-size: 48px
+}
+
+h2 {
+    font-family: 'sinkin_sans200_x_light', sans-serif;
+}
