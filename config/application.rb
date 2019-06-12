@@ -30,6 +30,8 @@ module Splurty
     # Precompile additional assets
     config.assets.precompile += %w( .woff .woff2 .ttf )
 
+    config.assets.initialize_on_precompile = false
+
   end 
 
 end
